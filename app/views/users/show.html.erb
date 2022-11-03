@@ -1,0 +1,19 @@
+</br>
+</br>
+</br>
+<h1 class="text-center" >The Gossip Project</h1>
+</br>
+<h2 class="text-center" >Tu veux en savoir plus sur l'auteur de ce Gossip ?</h2>
+</br>
+
+    <div class="card text-white bg-dark mb-3" style="width: max;">
+        <div class="card-body center">
+            <h5 class="card-title">Name : <%= @user.first_name%></h5>
+            <h6 class="card-subtitle mb-2 text-muted">Family name : <%= @user.last_name %></h6> </br>
+            <p class="card-text"> Description : <%= @user.description %></p>
+            <p class="card-text"> Mail adress : <%= @user.email %></p>
+            <p class="card-text"> How old ? : <%= @user.age %></p>
+            <p class="card-text"> City : <%= @user.city.name %></p>
+            <p class="card-text"> Created at : <%= @user.created_at %></p>
+        </div>
+    </div>
