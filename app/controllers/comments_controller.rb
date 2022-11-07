@@ -37,8 +37,6 @@ class CommentsController < ApplicationController
 
   private
 
-  private
-
   def authenticate_user
     unless current_user
       flash.now[:alert] = "Il faut vous connecter"
